@@ -1,9 +1,9 @@
-var playlist = {U2: 'The sweetest thing'}
-
-function updatePlaylist (obj, artist,song) {
-  return Object.assign (obj,{ [artist]: song})
+var playlist = {artistname: songtitle};
+function updatePlaylist (object,artistname,songtitle) {
+  Object.assign(object, artistname, songtitle);
+  return playlist;
 }
-function removeFromPlaylist (playlist, artistName) {
-delete playlist [artistName]
-return playlist
+function removeFromPlaylist (object,artistname) {
+  delete object[artistname];
+  return Playlist;
 }
