@@ -1,4 +1,4 @@
-var playlist = {SOAD: Toxicity};
+var playlist = {SOAD: "Toxicity"};
 function updatePlaylist (object,artistname,songtitle) {
   Object.assign(object, artistname, songtitle);
   return playlist;
